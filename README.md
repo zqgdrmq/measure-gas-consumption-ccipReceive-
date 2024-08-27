@@ -28,7 +28,6 @@ This repository contains a script to estimate the gas consumption of the `ccipRe
    ```bash
    npm install
    ```
-/* 
 
 3. 
 
