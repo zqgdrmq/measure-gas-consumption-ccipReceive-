@@ -28,8 +28,15 @@ This repository contains a script to estimate the gas consumption of the `ccipRe
    ```bash
    npm install
    ```
+/* 
 
-3. **Set Up Environment Variables:**
+3. 
+
+```bash
+   npx hardhat typechain 
+   ```
+
+4. **Set Up Environment Variables:**
 
    For the script, create a `.env` file in the root of your project and add your Ethereum Sepolia RPC URL:
 
@@ -37,7 +44,7 @@ This repository contains a script to estimate the gas consumption of the `ccipRe
    ETHEREUM_SEPOLIA_RPC_URL=<Your Ethereum Sepolia RPC URL>
    ```
 
-4. **Run the Script:**
+5. **Run the Script:**
 
    Use the following command to estimate the gas usage and calculate the increased gas limit:
 
