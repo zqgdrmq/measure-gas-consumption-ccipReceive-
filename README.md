@@ -29,7 +29,7 @@ This repository contains a script to estimate the gas consumption of the `ccipRe
    npm install
    ```
 
-3. 
+3. To address an issue with importing CrossChainReceiver__factory from '../typechain-types', you need to ensure that the TypeScript type definitions have been correctly generated and are available in the specified path. 
 
 ```bash
    npx hardhat typechain 
